@@ -94,7 +94,7 @@ const Login = () => {
       alert('Login successful');
 
       if (userRole === 'admin') {
-        navigate('/admin-dashboard');
+        navigate('/admin');
       } else {
         navigate('/home');
       }
